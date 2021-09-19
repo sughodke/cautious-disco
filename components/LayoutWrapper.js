@@ -15,7 +15,7 @@ const LayoutWrapper = ({ children }) => {
           <div>
             <Link href="/" aria-label="Sid Ghodke profile">
               <div className="flex items-center justify-between">
-                <div className="mr-3 w-8 filter invert -rotate-6">
+                <div className="mr-3 w-8 filter dark:invert -rotate-6">
                   <Logo />
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
