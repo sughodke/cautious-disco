@@ -1,8 +1,9 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Sid Ghodke - Portfolio',
+  author: 'Sid Ghodke',
+  headerTitle: 'SidGhodke',
+  description:
+    "I live in Northern California. These days I'm involved mostly in software - but I still find time for surfing, reading, and writing. A lot of my recent work involves digital health and team building.",
   language: 'en-us',
   siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
