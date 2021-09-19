@@ -2,7 +2,16 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
+const githubPages =
+  process.env['NODE_ENV'] === 'production'
+    ? {
+        basePath: '/cautious-disco',
+        assetPrefix: '/cautious-disco/',
+      }
+    : {}
+
 module.exports = withBundleAnalyzer({
+  ...githubPages,
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
